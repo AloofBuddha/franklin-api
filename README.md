@@ -3,7 +3,7 @@
 - `npm start` to start the server on port 3000
 - `npm test` to run test suite (server should be running simultaneously)
 
-## Dependencies
+## About
 Using `express` with `body-parser` to do routing.
 Using `sequelize` with `sqlite3` to query the database.
 This build is bare bones to get a working API out and is basically just many express routes that each do a SQL query and return the results, if any. There is a single test for each route that query's the database and passes if it returns 200. With more time I would probably implement better testing as right now we aren't checking the database for changes, just that the routes are succesful.
