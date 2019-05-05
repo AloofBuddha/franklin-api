@@ -209,8 +209,6 @@ app.delete('/api/order_item/:order_id', (req, res) => {
 });
 
 
-app.listen(3000, () =>
-  console.log(`Example app listening on port 3000!`),
-);
+app.listen(3000, () => console.log(`listening on port 3000!`));
 
 
