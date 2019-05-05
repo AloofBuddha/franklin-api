@@ -29,5 +29,5 @@
 * GET    `api/order_item/order/:order_id`     - get order_items by order_id
 * GET    `api/order_item/item/:item_id`     - get order_items by item_id
 * POST   `/api/order_item`                  - post new order_item from body { order_id, item_id }
-* DELETE `api/order_item/:ordor_id`         - delete by order_id 
+* DELETE `api/order_item/:order_id`         - delete by order_id 
 
