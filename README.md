@@ -1,3 +1,8 @@
+## To run
+`npm install` to install dependencies
+`npm start` to start the server on port 3000
+`npm test` to run test suite (serving should be running simultaneously)
+
 ## Users table API
 * GET    `/api/user`        - all users
 * GET    `api/user/:id`     - get user by id
